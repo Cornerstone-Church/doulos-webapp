@@ -1,0 +1,67 @@
+@keyframes logoDropDown {
+    0% { transform: translateY(200px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes bounceFade {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(.2); }
+    80% { transform: translate(-50%, -50%) scale(1.2); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+#im-new {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#events {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+#give {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+#new-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+#events-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#give-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#icon {
+    animation-name: logoDropDown;
+    animation-duration: .3s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
