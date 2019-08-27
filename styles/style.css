@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:900');
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 
 /* iOS Only CSS code */
@@ -28,14 +27,12 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 #mobile-wrapper {
     position: absolute;
     bottom: 0px;
-    /* overflow: hidden; */
-    /* Height is managed in the @supports section */
 }
 
 ul {
@@ -119,7 +116,6 @@ a {
     z-index: 1;
 }
 
-
 #portal h2 {
     position: absolute;
     top: 50%;
@@ -140,6 +136,8 @@ a {
 
     opacity: 0;
 }
+
+
 
 
 #title {
@@ -329,6 +327,10 @@ a:hover .overlay {
     color: white;
 }
 
+#announcment-section {
+    margin: 0px;
+}
+
 #announcment-section h2 {
     text-align: center;
 }
@@ -341,6 +343,7 @@ a:hover .overlay {
 #announcment-section li {
     display: block;
     margin: 80px 0px;
+    padding: 0px;
 }
 
 #announcment-section li:first-child {
@@ -383,6 +386,10 @@ a:hover .overlay {
 }
 
 #leaders img {
+    max-width: 350px;
     width: 90%;
     border-radius: 50px;
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
 }
