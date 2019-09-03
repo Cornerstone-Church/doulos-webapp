@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf8">
+    <title>This week at Cornerstone</title>
+    <link rel="stylesheet" href="/styles/style.css?version=19061101?1.1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Set up Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-firestore.js"></script>
+    <script src="https://static.cag.org/scripts/zalem_firebase.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138079008-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-138079008-2');
+    </script>
+
+</head>
+
+<body onload="getData();">
+    <!-- Tonight -->
+    <section id="announcments">
+        <div class="banner">
+            <img src="/ref/portal_images/events.jpg">
+            <h1>Small Groups</h1>
+        </div>
+
+        <!-- Will be generated from Firebase -->
+        <ul id="announcment-section"></ul>
+    </section>
+    <script src="/scripts/app.js"></script>
+    <script src="/scripts/happening_now.js"></script>
+    <script src="./scripts/smallgroups_firebase.js?version=19042501"></script>
+</body>
+
+</html>

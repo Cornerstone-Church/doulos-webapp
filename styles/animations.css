@@ -1,0 +1,100 @@
+@keyframes logoDropDown {
+    0% { transform: translateY(200px); }
+    100% { transform: translateY(0px); }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes bounceFade {
+    0% { opacity: 0; transform: translate(-50%, -50%) scale(.2); }
+    80% { transform: translate(-50%, -50%) scale(1.2); }
+    100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+}
+
+#logo {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#tonight {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
+    animation-fill-mode: forwards;
+}
+
+#tonight-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+#im-new {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.9s;
+    animation-fill-mode: forwards;
+}
+
+#im-new-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#events {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1.2s;
+    animation-fill-mode: forwards;
+}
+
+
+#events-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1.6s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#give {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+
+#give-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 1.9s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+
+#cag-website {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 1.8s;
+    animation-fill-mode: forwards;
+}
+
+
+#cag-website-text {
+    animation-name: bounceFade;
+    animation-duration: .4s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
