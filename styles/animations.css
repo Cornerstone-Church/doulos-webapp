@@ -14,10 +14,17 @@
     100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 }
 
-#tonight {
+#logo {
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#tonight {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-delay: 0.6s;
     animation-fill-mode: forwards;
 }
 
@@ -32,7 +39,7 @@
 #im-new {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 0.6s;
+    animation-delay: 0.9s;
     animation-fill-mode: forwards;
 }
 
@@ -47,7 +54,7 @@
 #events {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 0.9s;
+    animation-delay: 1.2s;
     animation-fill-mode: forwards;
 }
 
@@ -63,7 +70,7 @@
 #give {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 1.2s;
+    animation-delay: 1.5s;
     animation-fill-mode: forwards;
 }
 
@@ -79,7 +86,7 @@
 #cag-website {
     animation-name: fadeIn;
     animation-duration: 1s;
-    animation-delay: 1.5s;
+    animation-delay: 1.8s;
     animation-fill-mode: forwards;
 }
 
@@ -90,13 +97,4 @@
     animation-delay: 2.2s;
     animation-fill-mode: forwards;
     animation-timing-function: ease;
-}
-
-
-
-#icon {
-    animation-name: logoDropDown;
-    animation-duration: .3s;
-    animation-delay: 2s;
-    animation-fill-mode: forwards;
 }
