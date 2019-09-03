@@ -120,6 +120,21 @@ a {
     z-index: 1;
 }
 
+#portal #logo {
+    background: black;
+    position: relative;
+}
+
+#portal #logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    height: 50%;
+    width: auto;
+}
+
 #portal h2 {
     position: absolute;
     top: 50%;
@@ -127,17 +142,13 @@ a {
     transform: translate(-50%, -50%);
     width: 100%;
     text-align: center;
-
     padding: 0;
     margin: 0;
     text-decoration: none;
     color: var(--theme-text-color);
     font-size: 40px;
-
     text-transform: uppercase;
-
     font-family: 'Raleway', sans-serif;
-
     opacity: 0;
 }
 
