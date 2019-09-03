@@ -111,8 +111,9 @@ saveButton.addEventListener('mousedown', () => {
                     e.title = titleInput.value;
                     e.subtitle = subtitleInput.value;
                     e.description = descriptionInput.value;
+                    console.log(e.buttonLabel);
 
-                    if (e.buttonLabel != '' || e.buttonLink != '') {
+                    if (buttonLabel.value != '' || buttonLink.value != '') {
                         e.buttonLabel = buttonLabel.value;
                         e.buttonLink = buttonLink.value;
                     }
