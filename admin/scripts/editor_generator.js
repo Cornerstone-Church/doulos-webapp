@@ -80,9 +80,6 @@ saveButton.addEventListener('mousedown', () => {
     } else if (hasButton && (buttonLabel.value == '' || buttonLink.value == '')) {
         isValid = false;
         alert('Please make sure you have a Button Label and Button Address.');
-    } else if (descriptionInput.value == '') {
-        isValid = false;
-        alert('Please enter a description.');
     }
 
     // If valid is true
