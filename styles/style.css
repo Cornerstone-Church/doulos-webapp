@@ -108,6 +108,10 @@ a {
     border-top: none;
 }
 
+#portal a:nth-child(even) {
+    background:var(--theme-secondary-color);
+}
+
 
 #portal img {
     position: absolute;
@@ -121,7 +125,6 @@ a {
 }
 
 #portal #logo {
-    background: black;
     position: relative;
 }
 
