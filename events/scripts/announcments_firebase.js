@@ -67,7 +67,6 @@ function generateElement(title, subtitle, buttonLabel, buttonLink, description, 
         var label = document.createTextNode(buttonLabel);
         buttonElement.appendChild(label);
         buttonElement.setAttribute('href', buttonLink);
-        buttonElement.setAttribute('target', '_blank');
 
         hasButton = true;
     }
