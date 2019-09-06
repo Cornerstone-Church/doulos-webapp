@@ -1,0 +1,87 @@
+#values-wrapper {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    width: 100%;
+}
+
+#values-logo {
+    position: fixed;
+    height: 50px;
+    background: var(--theme-primary-color);
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 100;
+}
+
+#values-logo img {
+    width: 80%;
+}
+
+#values-background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: calc(100vh - 60px);
+    width: calc(100vw - 30px);
+    border: 5px solid var(--theme-secondary-color);
+    margin: 10px;
+    z-index: 100;
+}
+
+#bottom-gradient {
+    position: fixed;
+    bottom: 69px;
+    background: linear-gradient(0deg, var(--theme-primary-color), rgba(3, 18, 51, 0));
+    width: 100%;
+    height: 100px;
+    z-index: 2;
+}
+
+#bottom-solid {
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    background: var(--theme-primary-color);
+    z-index: 2;
+}
+
+#top-gradient {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg, var(--theme-primary-color), rgba(3, 18, 51, 0));
+    z-index: 2;
+}
+
+.values-list {
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.values-list li {
+    margin: 120px 25px;
+}
+
+.values-list li:last-child {
+    margin-bottom: 200px;
+}
+
+.values-list .value-header {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.values-list .value-section {
+    margin: 10px 0px;
+    font-size: 20px;
+    color: var(--theme-secondary-color);
+}
