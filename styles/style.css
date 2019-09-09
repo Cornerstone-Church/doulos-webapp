@@ -321,6 +321,7 @@ a:hover .overlay {
     height: 33.3vh;
     width: 100%;
     overflow: hidden;
+    border-bottom: 4px solid var(--theme-primary-color);
 }
 
 .image-button img {
@@ -342,7 +343,7 @@ a:hover .overlay {
     font-size: 40px;
     text-transform: uppercase;
     font-weight: bold;
-    color: var(--theme-text-color);
+    color: var(--theme-primary-color);
 }
 
 #announcment-section {
