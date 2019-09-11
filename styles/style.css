@@ -155,8 +155,40 @@ a {
     opacity: 0;
 }
 
+#portal #social-media {
+    display: block;
+    position: relative;
 
+    height: 60px;
+    width: 100%;
 
+    background: var(--theme-primary-color);
+
+    overflow: hidden;
+    opacity: 1;
+}
+
+#portal #social-media #social-media--wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#portal #social-media a {
+    display: inline-block;
+    margin: 0px 30px;
+    opacity: 1;
+    height: 40px;
+    width: 40px;
+    background: none;
+    border: none;
+}
+
+#portal #socail-media img {
+    width: 100%;
+    height: 100%;
+}
 
 #title {
     position: absolute;
